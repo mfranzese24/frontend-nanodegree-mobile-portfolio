@@ -7,3 +7,15 @@ https://developers.google.com/speed/docs/insights/OptimizeImages
 http://stackoverflow.com/questions/11221607/tool-for-lossless-image-compression
 
 https://kraken.io/web-interface
+
+https://developers.google.com/speed/docs/insights/EnableCompression
+
+https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer#text-compression-with-gzip
+
+https://developers.google.com/speed/docs/insights/Server
+
+https://developers.google.com/speed/docs/insights/LeverageBrowserCaching
+
+https://developers.google.com/speed/pagespeed/module/filter-css-inline-google-fonts
+
+https://developers.google.com/speed/docs/insights/EnableCompression
