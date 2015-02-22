@@ -1,5 +1,7 @@
 piazza.com
 
+INDEX.HTML PAGESPEED INSIGHTS:
+
 https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery
 
 https://developers.google.com/speed/docs/insights/OptimizeImages
@@ -19,3 +21,7 @@ https://developers.google.com/speed/docs/insights/LeverageBrowserCaching
 https://developers.google.com/speed/pagespeed/module/filter-css-inline-google-fonts
 
 https://developers.google.com/speed/docs/insights/EnableCompression
+
+https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer#text-compression-with-gzip
+
+PIZZA.HTML 60FPS:
