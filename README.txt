@@ -9,3 +9,12 @@ AVOID RENDER BLOCKING:
 	2. add media query to print.css
 	3. Inline CSS
 	4. Inline Google Fonts
+
+*****
+
+Steps taken for FPS project - main.js
+
+1. Line 527, change so loop only runs to 20 rather than 200
+2. Line 451, add var for pizzaContainer to avoid running document.querySelectorAll multiple times
+
+

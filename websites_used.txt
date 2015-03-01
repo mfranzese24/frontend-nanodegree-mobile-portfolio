@@ -25,3 +25,5 @@ https://developers.google.com/speed/docs/insights/EnableCompression
 https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer#text-compression-with-gzip
 
 PIZZA.HTML 60FPS:
+
+https://plus.google.com/u/0/hangouts/onair/watch?hid=hoaevent%2Fcomnga3cdvrpkjm7dvb4l71ph2o&ytl=dSlVrVCnrvk&hl=en
