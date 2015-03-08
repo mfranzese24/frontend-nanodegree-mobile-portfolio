@@ -14,7 +14,9 @@ AVOID RENDER BLOCKING:
 
 Steps taken for FPS project - main.js
 
-1. Line 527, change so loop only runs to 20 rather than 200
+1. Line 527, change so loop only runs to 50 rather than 200
 2. Line 451, add var for pizzaContainer to avoid running document.querySelectorAll multiple times
+	- Move all other new variables outside of "for" loop
+3. LIne 509, move variables out of for loop
 
 

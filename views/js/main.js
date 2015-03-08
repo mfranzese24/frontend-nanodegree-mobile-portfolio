@@ -448,14 +448,15 @@ var resizePizzas = function(size) {
 
   // Iterates through pizza elements on the page and changes their widths
   //add var pizzaContainer to avoid multiple document.querySelectors
-  function changePizzaSizes(size) {
-    var pizzaContainer = document.querySelectorAll(".randomPizzaContainer");
-    for (var i = 0; i < pizzaContainer.length; i++) {
-      var dx = determineDx(pizzaContainer[i], size);
-      var newwidth = (pizzaContainer[i].offsetWidth + dx) + 'px';
-      pizzaContainer[i].style.width = newwidth;
-    }
+  //moved all variables outside of for loop - only need to be calculated once
+function changePizzaSizes(size) {
+  var pizzaContainer = document.getElementsByClassName("randomPizzaContainer");
+  var dx = determineDx(pizzaContainer[0], size);
+  var newwidth = (pizzaContainer[0].offsetWidth + dx) + 'px';
+  for (var i = 0, l = pizzaContainer.length; i < l; i++) {
+    pizzaContainer[i].style.width = newwidth;
   }
+}
 
   changePizzaSizes(size);
 
@@ -502,9 +503,10 @@ function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
 
-  var items = document.querySelectorAll('.mover');
+//move variables out of for loop
+  var items = document.getElementsByClassName('.mover');
+  var phase = Math.sin((document.body.scrollTop / 1250) + (i % 5));
   for (var i = 0; i < items.length; i++) {
-    var phase = Math.sin((document.body.scrollTop / 1250) + (i % 5));
     items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
   }
 
@@ -526,7 +528,7 @@ window.addEventListener('scroll', updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
-  for (var i = 0; i < 20; i++) {
+  for (var i = 0; i < 50; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
