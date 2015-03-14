@@ -1,0 +1,35 @@
+piazza.com
+
+INDEX.HTML PAGESPEED INSIGHTS:
+
+https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery
+
+https://developers.google.com/speed/docs/insights/OptimizeImages
+
+http://stackoverflow.com/questions/11221607/tool-for-lossless-image-compression
+
+https://kraken.io/web-interface
+
+https://developers.google.com/speed/docs/insights/EnableCompression
+
+https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer#text-compression-with-gzip
+
+https://developers.google.com/speed/docs/insights/Server
+
+https://developers.google.com/speed/docs/insights/LeverageBrowserCaching
+
+https://developers.google.com/speed/pagespeed/module/filter-css-inline-google-fonts
+
+https://developers.google.com/speed/docs/insights/EnableCompression
+
+https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer#text-compression-with-gzip
+
+PIZZA.HTML 60FPS:
+
+https://plus.google.com/u/0/hangouts/onair/watch?hid=hoaevent%2Fcomnga3cdvrpkjm7dvb4l71ph2o&ytl=dSlVrVCnrvk&hl=en
+
+Udacity Forums
+
+1:1 Appointments
+
+https://github.com/udacity/fend-office-hours/tree/master/Web%20Optimization/Effective%20Optimizations%20for%2060%20FPS
