@@ -27,3 +27,9 @@ https://developers.google.com/web/fundamentals/performance/optimizing-content-ef
 PIZZA.HTML 60FPS:
 
 https://plus.google.com/u/0/hangouts/onair/watch?hid=hoaevent%2Fcomnga3cdvrpkjm7dvb4l71ph2o&ytl=dSlVrVCnrvk&hl=en
+
+Udacity Forums
+
+1:1 Appointments
+
+https://github.com/udacity/fend-office-hours/tree/master/Web%20Optimization/Effective%20Optimizations%20for%2060%20FPS
