@@ -16,6 +16,6 @@ Steps taken for FPS project - main.js
 
 1. Line 531, change so loop only runs to 50 rather than 200
 2. Line 452 - 459: move variables outside for loop, using "getElementsByClassName" rather than "querySelectorAll"
-
+3. Use backface-visibility: hidden hack in style.css to increase paint time
 
 
